@@ -117,6 +117,9 @@
   }
   
   @media (max-width: 480px) {
+    .duck  {
+      max-width:120px;
+    }
     .banner {
       position: relative;
       z-index: 1;
@@ -154,7 +157,6 @@
       position: relative;
       z-index: 3;
       color: #ffffff;
-      text-align: left;
       width: 100%;
       max-width: 30.909rem;
       padding: 20px;

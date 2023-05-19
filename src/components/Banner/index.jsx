@@ -18,7 +18,7 @@ const Banner = () => {
                 <div className="banner__gradient"></div>
             </div>
             <div className="banner__content">
-              <img src={Duck} />
+              <img className="duck" src={Duck} />
               <h1 className="banner__title aos-init aos-animate" data-aos="fade-down" data-aos-delay="200">
               I help people to get into tech
               </h1>
