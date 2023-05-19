@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import Image from './banner.webp'
+import Duck from './duck.gif'
 
 const Banner = () => {
   return (
@@ -17,6 +18,7 @@ const Banner = () => {
                 <div className="banner__gradient"></div>
             </div>
             <div className="banner__content">
+              <img src={Duck} />
               <h1 className="banner__title aos-init aos-animate" data-aos="fade-down" data-aos-delay="200">
               I help people to get into tech
               </h1>

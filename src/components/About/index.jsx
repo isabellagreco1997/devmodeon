@@ -6,7 +6,7 @@ import { faTiktok, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-container">
       <div className="title-container">
         <h2 className="about-title">About Me</h2>
       </div>

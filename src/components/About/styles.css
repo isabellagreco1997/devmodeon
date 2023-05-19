@@ -80,4 +80,12 @@
     .image-container{
       margin-bottom: 30px;
     }
+
+    .text-container {
+      padding-left: 0;
+  }
+
+  .social-media-container {
+    margin-top: 30px;
+  }
   }
