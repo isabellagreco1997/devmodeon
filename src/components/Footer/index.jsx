@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-      <h2 className="title">DEV_MODE_ON</h2>
+      <h2 className="title">CODE_WITH_ISA</h2>
 
         <div className="footer-content">
           <div className="footer-links">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} DevModeOn. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CodeWithIsa. All rights reserved.</p>
         </div>
       </div>
     </footer>
