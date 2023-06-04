@@ -28,9 +28,9 @@ const Banner = () => {
                 </div>
                 <div className="btn-wrapper row gx-3">
                   <div className="col-auto mb-3">
-                    <a className="btn" href="https://www.tiktok.com/@isabellagrecodev">
+                    {/* <a className="btn" href="https://www.tiktok.com/@isabellagrecodev">
                       Follow me on TikTok
-                    </a>
+                    </a> */}
                     <a className="btn" href="https://www.fiverr.com/bellagreco/boost-your-linkedin-profile-to-help-you-land-your-first-job-in-tech">
                       Help me with my LinkedIn!
                     </a>
