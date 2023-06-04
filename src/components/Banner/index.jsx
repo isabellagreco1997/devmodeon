@@ -31,6 +31,9 @@ const Banner = () => {
                     <a className="btn" href="https://www.tiktok.com/@isabellagrecodev">
                       Follow me on TikTok
                     </a>
+                    <a className="btn" href="https://www.tiktok.com/@isabellagrecodev">
+                      Help me with my LinkedIn!
+                    </a>
                   </div>
                   {/* <div className="col-auto mb-3">
                     <a className="btn" href="https://www.eventbrite.co.uk/e/learn-to-code-at-makers-information-session-tickets-368212241727">
