@@ -59,7 +59,8 @@ const LandingPage = () => {
         {/* <button>Get Free e-book</button> */}
       </div>
 
-      <p>Don't miss my short message on the next page either!</p>
+      {/* <p>Don't miss my short message on the next page either!</p> */}
+      <p>"Every line of code you write is a step towards mastery. Embrace each challenge as an opportunity to learn and grow. Remember, the expert in anything was once a beginner."</p>
     </div>
   );
 };
