@@ -12,6 +12,7 @@ class MailchimpForm extends React.Component {
 
     render() {
         return (
+            <div style={{display:'flex', justifyItems:'center'}}>
             <div dangerouslySetInnerHTML={{ __html: `
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
                 <style type="text/css">
@@ -37,13 +38,13 @@ class MailchimpForm extends React.Component {
                         <div class="optionalParent">
                             <div class="clear foot">
                                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                <p class="brandingLogo"><a href="http://eepurl.com/hVwEvT" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
                             </div>
                         </div>
                     </div>
                     </form>
                 </div>
             `}} />
+            </div>
         );
     }
 }
